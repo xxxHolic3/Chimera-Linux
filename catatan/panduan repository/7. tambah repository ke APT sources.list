@@ -1,0 +1,8 @@
+# Menambahkan Repository ke APT source.list
+sudo nano sources.list
+
+# Silahkan Tambahkan Baris Berikut :
+# Format nya
+deb Lokasi-Sourceforge codenama componnet
+# Sample :
+deb http://downloads.sourceforge.net/slashproject/hackslash/repo/ inu main

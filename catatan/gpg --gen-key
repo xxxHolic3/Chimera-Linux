@@ -1,0 +1,65 @@
+agung@chimera:~$ gpg --full-gen-key
+gpg (GnuPG) 2.2.12; Copyright (C) 2018 Free Software Foundation, Inc.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Please select what kind of key you want:
+   (1) RSA and RSA (default)
+   (2) DSA and Elgamal
+   (3) DSA (sign only)
+   (4) RSA (sign only)
+Your selection? 1
+RSA keys may be between 1024 and 4096 bits long.
+What keysize do you want? (3072) 1024
+Requested keysize is 1024 bits
+Please specify how long the key should be valid.
+         0 = key does not expire
+      <n>  = key expires in n days
+      <n>w = key expires in n weeks
+      <n>m = key expires in n months
+      <n>y = key expires in n years
+Key is valid for? (0) 0
+Key does not expire at all
+Is this correct? (y/N) y
+
+GnuPG needs to construct a user ID to identify your key.
+
+Real name: noodle_ronin
+Email address: agung.ichiruki@gmail.com
+Comment: chimera gnu/linux
+You selected this USER-ID:
+    "noodle_ronin (chimera gnu/linux) <agung.ichiruki@gmail.com>"
+
+Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit? O
+We need to generate a lot of random bytes. It is a good idea to perform
+some other action (type on the keyboard, move the mouse, utilize the
+disks) during the prime generation; this gives the random number
+generator a better chance to gain enough entropy.
+We need to generate a lot of random bytes. It is a good idea to perform
+some other action (type on the keyboard, move the mouse, utilize the
+disks) during the prime generation; this gives the random number
+generator a better chance to gain enough entropy.
+gpg: /home/noodle/.gnupg/trustdb.gpg: trustdb created
+gpg: key 5C5A7247D916CEDA marked as ultimately trusted
+gpg: directory '/home/noodle/.gnupg/openpgp-revocs.d' created
+gpg: revocation certificate stored as '/home/noodle/.gnupg/openpgp-revocs.d/1DBF32AC3130C132D86709D25C5A7247D916CEDA.rev'
+public and secret key created and signed.
+
+pub   rsa1024 2019-03-27 [SC]
+      1DBF32AC3130C132D86709D25C5A7247D916CEDA
+uid                      noodle_ronin (chimera gnu/linux) <agung.ichiruki@gmail.com>
+sub   rsa1024 2019-03-27 [E]
+
+agung@chimera:~$ gpg --list-key
+gpg: checking the trustdb
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 1u
+/home/agung/.gnupg/pubring.kbx
+-------------------------------
+pub   rsa1024 2019-03-27 [SC]
+      1DBF32AC3130C132D86709D25C5A7247D916CEDA
+uid           [ultimate] noodle_ronin (chimera gnu/linux) <agung.ichiruki@gmail.com>
+sub   rsa1024 2019-03-27 [E]
+
+agung@chimera:~$ g --keyserver keyserver.ubuntu.com --send-keys 5C5A7247D916CEDA
+gpg: sending key 5C5A7247D916CEDA to hkp://keyserver.ubuntu.com

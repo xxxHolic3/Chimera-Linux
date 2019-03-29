@@ -1,0 +1,38 @@
+# Membuat Directory Repository
+mkdir $HOME/upload
+
+mkdir -p $HOME/repo/conf
+
+cd $HOME/repo/conf
+
+nano distributions
+# Silahkan Isi dengan Sebagai Berikut
+Origin: 
+Label: 
+Suite: 
+Codename: 
+Version: 
+Architectures: 
+Components: 
+Description: 
+SignWith: 
+
+# Contoh
+Origin: hackslash
+Label: hackslash
+Suite: inu
+Codename: inu
+Version: 1.0
+Architectures: i386 amd64
+Components: main upstream resticted import import-resticted queen
+Description: Hack|Slash 1.0 Repository
+SignWith: 959CDDD1
+
+# Membuat Directory file Untuk Uploads paket2 .deb ke repo
+mkdir upload
+
+# Mengextract Public key
+cd $HOME 
+gpg --output public-key.gpg --armor --export 959CDDD1
+                            # Silahkan Ganti 959CDDD1 sesuai ID publickey anda
+cp public-key.gpg $HOME/repo

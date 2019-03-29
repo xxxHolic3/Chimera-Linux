@@ -1,0 +1,29 @@
+# Menginstall Software yang dibutuh kan
+sudo apt-get install filezilla
+
+# Konfigurasi SFTP di FileZilla
+  * Buka FileZilla
+  * New Site
+  * Berinama sitenya
+  ####### TAB GENERAL
+    * Isi Hostnya : frs.sourceforge.net
+    * Port : 22
+    * Protokol : SFTP - SSH File Transfer Protokol
+    * Logon type: Normal Password
+    * User : 
+    * Password :
+      # silahkan isi user dan password sesuai username di sourceforge anda.
+ 
+ ####### TAB ADVANCED
+ * Default Remote Directory : /home/pfs/slashproject/
+   # silahkan ganti sesuaikan chimera dengan project yang dibangun 
+   # slashproject adalah folder paling awal dari directory di sourceforge
+ 
+   # Klik Ok dan siap koneksi dan upload repositorynya :)
+
+
+# Upload Repository ke Sourceforge
+# Pastikan sudah Terkoneksi dengan Sourceforge
+# Pastikan Local Sitenya berada di directiory HOME anda
+# Silahkan klik folder repo dari Local Site :  drag ke folder remote site :
+# Tunggu Sampai Selesai :)

@@ -1,0 +1,85 @@
+[+] DNS Analysis
+  dnsdict6 [atk6- thc-ipv6 family]
+  dnsenum
+  dnsmap
+  dnsrecon
+  dnsrevenum6 [atk6- thc-ipv6 family]
+  dnstracer
+  dnswalk
+  fierce
+  urlcrazy
+  
+[+] IDS/IPS Identification
+  fragroute
+  fragrouter
+  ftest [ftester]
+  lbd
+  
+[+] Live Host Identification
+  arping
+  cdpsnarf
+  detect-new-ip6 [atk6- thc-ipv6 family]
+  fping 
+  hping3 
+  inverse_lookup6 [atk6- thc-ipv6 family]
+  miranda 
+  ncat [nmap family]
+  passive_discovery6 [atk6- thc-ipv6 family]
+  thcping6 [atk6- thc-ipv6 family]
+  wol-e 
+  xprobe2
+  
+[+] Network & Port Scanner
+  etherape
+  masscan
+  nmap
+  unicornscan
+  wireshark
+  zenmap [nmap family]
+  
+[+] OSINT Analysis
+  automater
+  metagoofil 
+  theharvester
+  twofi
+  urlcrazy
+  
+[+] Route Analysis
+  0trace
+  intrace
+  irpas-ass [non-free. not included default]
+  irpass-cdp [non-free. not included default]
+  netmask 
+  trace6 [atk6- thc-ipv6 family]
+  
+[+] SMB Analysis
+  acccheck [non-free. but included default]
+  nbtscan 
+  smbmap
+  
+[+] SMTP Analysis
+  smtp-user-enum
+  swaks
+  
+[+] SNMP Analysis
+  braa
+  onesixtyone
+  snmp-check
+  
+[+] SSL Analysis
+  sslcaudit
+  ssldump
+  sslh
+  sslscan
+  sslyze
+  
+ike-scan
+dnmap-client
+dnmap-server
+dmitry
+netdiscover
+nmap
+p0f
+recon-ng
+wireshark
+zenmap

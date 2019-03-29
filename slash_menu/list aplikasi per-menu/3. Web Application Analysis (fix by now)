@@ -1,0 +1,50 @@
+[+] CMS & Framework Identification
+  blindelephant
+  joomscan
+  plecost
+  ua-tester
+  wpscan
+  
+[+] Web Application Proxies
+  paros
+  proxystrike 
+  owasp-zap
+  proxystrike
+  
+[+] Web Crawler & Directory Bruteforce
+  apache-users
+  cutycapt
+  dirb
+  dirbuster
+  uniscan-gui
+  wfuzz 
+  
+[+] Web Vulnerability Scanners
+  cadaver
+  clusterd
+  davtest
+  deblaze
+  fimap
+  golismero
+  grabber
+  jboss-autopwn-linux
+  jboss-autopwn-win
+  joomscan
+  jsql
+  nikto
+  owasp-mantra-ff
+  padbuster
+  skipfish
+  wapiti
+  websploit
+  whatweb
+  wpscan
+  xsser
+  
+commix
+httrack
+owasp-zap
+paros
+skipfish
+webscarab
+wpscan

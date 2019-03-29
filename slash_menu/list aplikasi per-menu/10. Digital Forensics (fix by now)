@@ -1,0 +1,80 @@
+[+] Digital Forensics
+  extundelete
+  mc
+  missidentify
+  pdgmail
+  reglookup
+  regripper
+  vinetto
+
+[+] Forensic Carving Tools
+  magicrescue
+  pasco
+  pev
+  recoverjpeg
+  rifiuti
+  rifiuti2
+  safecopy
+  scalpel
+  scrounge-ntfs
+
+[+] Forensic Imaging Tools
+  affcat
+  dc3dd
+  dcfldd
+  ddrescue 
+  ewfacquire [libewf / ewf-tools]
+  ewfacquirestream [libewf / ewf-tools]
+  ewfexport [libewf / ewf-tools]
+  ewfinfo [libewf / ewf-tools]
+  ewfverify [libewf / ewf-tools]
+  guymager
+  md5deep [hashdeep Family]
+  rahash2 [radare2 Family]
+  
+[+] PDF Forensics Tools
+  pdfid
+  pdf-parser
+  peepdf
+
+[+] Sleuth Kit Suite
+  blkcalc
+  blkcat
+  blkls
+  blkstat
+  ffind [sleuthkit Family]
+  fls [sleuthkit Family]
+  fsstat [sleuthkit Family]
+  hfind [sleuthkit Family]
+  icat-sleuthkit [sleuthkit Family]
+  ifind [sleuthkit Family]
+  ils-sleuthkit [sleuthkit Family]
+  img_cat [sleuthkit Family]
+  img_stat [sleuthkit Family]
+  istat [sleuthkit Family]
+  jcat [sleuthkit Family]
+  jls [sleuthkit Family]
+  mactime-sleuthkit [sleuthkit Family]
+  mmcat [sleuthkit Family]
+  mmls [sleuthkit Family]
+  mmstat [sleuthkit Family]
+  sigfind [sleuthkit Family]
+  sorter [sleuthkit Family]
+  srch_strings [sleuthkit Family]
+  tsk_comparedir [sleuthkit Family]
+  tsk_gettimes [sleuthkit Family]
+  tsk_loaddb [sleuthkit Family]
+  tsk_recover [sleuthkit Family]
+
+autopsy
+binwalk
+bulk_extractor
+chkrootkit
+foremost
+galleta
+hashdeep
+rkhunter
+volafox
+volatility
+xplico
+yara

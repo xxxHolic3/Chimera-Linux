@@ -1,0 +1,71 @@
+# <<Hack|Slash linux hacking menu
+
+[*] Information Gathering
+   [-] DNS Analysis
+   [-] IDS/IPS Identification
+   [-] Live Host Identification
+   [-] Network & Port Scanner
+   [-] OSINT Analysis
+   [-] Route Analysis
+   [-] SMB Analysis
+   [-] SMTP Analysis
+   [-] SNMP Analysis
+   [-] SSL Analysis
+
+[*] Vulnerability Analysis
+   [-] Cisco Tools
+   [-] Fuzzing Tools
+   [-] OpenVAS Scanner
+   [-] Stress Testing
+   [-] VoIP Tools
+   
+[*] Web Application Analysis
+   [-] CMS & Framework Identification
+   [-] IPV6 tools
+   [-] Web Application Proxies
+   [-] Web Crawlers & Directory Bruteforce
+   [-] Web Vulnerability Scanners
+   
+[*] Database Assessment
+
+[*] Exploitation
+   [-] Merasploit Framework
+   [-] Social Engineering
+   
+[*] Post Exploitation
+   [-] OS Backdoors
+   [-] Tunneling & Exfiltration
+   [-] Web Backdoors
+
+[*] Passsword Attacks
+   [-] Offline Attacks
+   [-] Online Attacks
+   [-] Passing the Hash tools
+   [-] Password Profilling & Wordlist
+
+[*] Wireless Testing
+   [-] 802.11 Wireless Tools
+   [-] Bluetooth Tools
+   [-] Other Wireless Tools
+   [-] RFID & NFC Tools
+   [-] Software Defined Radio
+
+[*] Sniffing & Spoofing
+   [-] Network Sniffers
+   [-] Spoofing and MITM
+   
+[*] cryptography
+   
+[*] Digital Forensics
+   [-] Digital Forensics
+   [-] Forensic Carving Tools
+   [-] Forensic Imaging Tools
+   [-] PDF Forensics Tools
+   [-] Sleuth Kit Suite
+
+[*] Automotive Tools
+   [-] Can utils
+
+[*] Reverse Engineering
+
+[*] System Service

@@ -1,0 +1,61 @@
+[+] 802.11 Wireless Tools
+	airbase-ng [aircrack-ng Family]
+	aircrack-ng [aircrack-ng Family]
+	airdecap-ng [aircrack-ng Family]
+	airdecloak-ng [aircrack-ng Family]
+	aireplay-ng [aircrack-ng Family]
+	airgeddon
+	airmon-ng [aircrack-ng Family]
+	airodump-ng [aircrack-ng Family]
+	airolib-ng [aircrack-ng Family]
+	airserv-ng [aircrack-ng Family]
+	airtu-ng [aircrack-ng Family]
+	asleap
+	bully
+	cowpatty
+	eapmd5pass
+	giskismet
+	wifiarp [wifitap Family]
+	wifidns [wifitap Family]
+	wifi-honey
+	wifiping [wifitap Family]
+	wifitap [wifitap Family]
+
+[+] Bluetooth Tools
+	bluelog
+	blueranger
+	bluesnarfer
+	btscanner
+	crackle
+	redfang
+	spooftooph
+	
+[+] Other Wireless Tools
+	genkeys [asleap Family]
+	genpmk [asleap Family]
+	hackrf_info 
+	ubertooth util
+	zbassocflood [asleap Family]
+	zbdsniff [asleap Family]
+	zbdump [asleap Family]
+	zbfind [asleap Family]
+	zbgoodfind [asleap Family]
+	zbreplay [asleap Family]
+	zbstumbler [asleap Family]
+
+[+] RFID & NFC Tools
+	[Future Release]
+	
+[+] Software Defined Radio
+	gnuradio-companion
+	rfcat
+	rtlsdr-scanner
+	
+aircrack-ng
+fern wifi cracker
+ghost phisher
+king phisher server
+mdk3
+pixiewps
+reaver
+wifite

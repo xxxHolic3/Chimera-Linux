@@ -1,0 +1,17 @@
+* arpspoof - Send out unrequested (and possibly forged) arp replies.
+  * dnsspoof - forge replies to arbitrary DNS address / pointer queries
+              on the Local Area Network.
+  * dsniff - password sniffer for several protocols.
+  * filesnarf - saves selected files sniffed from NFS traffic.
+  * macof - flood the local network with random MAC addresses.
+  * mailsnarf - sniffs mail on the LAN and stores it in mbox format.
+  * msgsnarf - record selected messages from different Instant Messengers.
+  * sshmitm - SSH monkey-in-the-middle. proxies and sniffs SSH traffic.
+  * sshow - SSH traffic analyser.
+  * tcpkill - kills specified in-progress TCP connections.
+  * tcpnice - slow down specified TCP connections via "active"
+              traffic shaping.
+  * urlsnarf - output selected URLs sniffed from HTTP traffic in CLF.
+  * webmitm - HTTP / HTTPS monkey-in-the-middle. transparently proxies.
+  * webspy - sends URLs sniffed from a client to your local browser
+              (requires libx11-6 installed).

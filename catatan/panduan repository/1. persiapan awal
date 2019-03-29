@@ -1,0 +1,2 @@
+# Install Tools yang dibutuhkan
+sudo apt-get install reprepro dpkg-sig haveged -y

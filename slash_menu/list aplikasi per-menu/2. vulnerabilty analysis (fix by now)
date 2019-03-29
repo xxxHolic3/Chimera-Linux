@@ -1,0 +1,76 @@
+[+] Cisco Tools
+  cisco-auditing-tool
+  cisco-global-exploiter
+  cisco-osc
+  cisco-torch
+  copy-router-config 
+  merge-router-config [copy-router-config family]
+  yersinia 
+  
+[+] Fuzzing Tools
+  afl
+  bed
+  fuzz_ip6 [atk6- thc-ipv6 family]
+  ohrwurm 
+  powerfuzzer
+  sfuzz
+  siparmyknife
+  spike-generic_chunked
+  spike-generic_listen_tcp
+  spike-generic_send_tcp
+  spike-generic_send_udp
+  
+[+] OpenVAS Scanner
+  openvas check setup
+  openvas feed update
+  openvas-gsd
+  openvas initial setup
+  openvas start
+  openvas stop
+  
+[+] Stress Testing
+  denial6 [atk6- thc-ipv6 family]
+  dhcpig
+  dos-new-ip6 [atk6- thc-ipv6 family]
+  flood_advertise6 [atk6- thc-ipv6 family]
+  flood_dhcpc6 [atk6- thc-ipv6 family]
+  flood_mld26 [atk6- thc-ipv6 family]
+  flood_mld6 [atk6- thc-ipv6 family]
+  flood_mldrouter6 [atk6- thc-ipv6 family]
+  flood_solicitate6 [atk6- thc-ipv6 family]
+  fragmentation6 [atk6- thc-ipv6 family]
+  iaxflood
+  inviteflood
+  kill_router6 [atk6- thc-ipv6 family]
+  macof [dsniff family]
+  rsmurf6 [atk6- thc-ipv6 family]
+  siege
+  slowhttptest 
+  t50
+  thc-ssl-dos
+  
+[+] VoIP Tools
+  enumiax
+  iaxflood
+  inviteflood
+  msgsnarf [dsniff family]
+  ohrwurm
+  protos-sip 
+  rtpbreak
+  rtpflood
+  rtpinsertsound
+  rtpmixsound
+  sctpscan
+  siparmyknife
+  sipp
+  sipsak
+  svcrack [sipvicious family]
+  svcrash [sipvicious family]
+  svmap [sipvicious family]
+  svreport [sipvicious family]
+  svwar [sipvicious family]
+  voiphopper
+  
+golismero
+lynis
+unix-privesc-check

@@ -1,0 +1,9 @@
+Origin: chimera
+Label: chimera
+Suite: juvenile
+Codename: juvenile
+Version: 19
+Architectures: amd64
+Components: main upstream resticted import import-resticted queen
+Description: chimera gnu/linux 19 codename "juvenile" Repository
+SignWith: 5C5A7247D916CEDA

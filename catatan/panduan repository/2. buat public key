@@ -1,0 +1,98 @@
+# 1. Buka terminal & ketik :
+cat /dev/random | rngtest -c 1000
+
+gpg --gen-key
+# 2. Trz masukkan “1″ – untuk membuat standard DSA/ElGamal key > Enter…
+# 3. Masukkan “1024″ > Enter…
+# 4. Masukkan “0 >Enter…
+# 6. Pilih “Y” > Enter…
+# 7. Masukkan Nama Asli > Enter…
+# 8. Masukkan Email > Enter…
+# 9. Masukkan Comment > Enter…
+# 10. Pilih O dan nnati akan otomatis membuat GPG Public Key…
+# 11. Trz masukkan Pass Pahrase…
+
+# SAMPLE GPG SUKSES DI BUAT
+cat /dev/random | rngtest -c 1000
+rngtest 5
+Copyright (c) 2004 by Henrique de Moraes Holschuh
+This is free software; see the source for copying conditions.  There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+rngtest: starting FIPS tests...
+rngtest: bits received from input: 20000032
+rngtest: FIPS 140-2 successes: 998
+rngtest: FIPS 140-2 failures: 2
+rngtest: FIPS 140-2(2001-10-10) Monobit: 0
+rngtest: FIPS 140-2(2001-10-10) Poker: 0
+rngtest: FIPS 140-2(2001-10-10) Runs: 1
+rngtest: FIPS 140-2(2001-10-10) Long run: 1
+rngtest: FIPS 140-2(2001-10-10) Continuous run: 0
+rngtest: input channel speed: (min=1.231; avg=13.705; max=19073.486)Mibits/s
+rngtest: FIPS tests speed: (min=1.873; avg=34.703; max=58.329)Mibits/s
+rngtest: Program run time: 1945792 microseconds
+
+gpg --gen-key
+gpg (GnuPG) 1.4.20; Copyright (C) 2015 Free Software Foundation, Inc.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+gpg: keyring `/home/agung/.gnupg/secring.gpg' created
+Please select what kind of key you want:
+   (1) RSA and RSA (default)
+   (2) DSA and Elgamal
+   (3) DSA (sign only)
+   (4) RSA (sign only)
+Your selection? 1
+RSA keys may be between 1024 and 4096 bits long.
+What keysize do you want? (2048) 1024
+Requested keysize is 1024 bits
+Please specify how long the key should be valid.
+         0 = key does not expire
+      <n>  = key expires in n days
+      <n>w = key expires in n weeks
+      <n>m = key expires in n months
+      <n>y = key expires in n years
+Key is valid for? (0) 0
+Key does not expire at all
+Is this correct? (y/N) y
+You need a user ID to identify your key; the software constructs the user ID
+from the Real Name, Comment and Email Address in this form:
+    "Heinrich Heine (Der Dichter) <heinrichh@duesseldorf.de>"
+Real name: Noodle_ronin
+Email address: agung.ichiruki@gmail.com
+Comment: <<Hack|Slash linux
+You selected this USER-ID:
+    "Noodle_ronin (<<Hack|Slash linux) <agung.ichiruki@gmail.com>"
+Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit? O
+You need a Passphrase to protect your secret key.
+We need to generate a lot of random bytes. It is a good idea to perform
+some other action (type on the keyboard, move the mouse, utilize the
+disks) during the prime generation; this gives the random number
+generator a better chance to gain enough entropy.
+......+++++
++++++
+We need to generate a lot of random bytes. It is a good idea to perform
+some other action (type on the keyboard, move the mouse, utilize the
+disks) during the prime generation; this gives the random number
+generator a better chance to gain enough entropy.
++++++
+....+++++
+gpg: key 959CDDD1 marked as ultimately trusted
+public and secret key created and signed.
+gpg: checking the trustdb
+gpg: 3 marginal(s) needed, 1 complete(s) needed, PGP trust model
+gpg: depth: 0  valid:   1  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 1u
+pub   1024R/959CDDD1 2017-07-27
+      Key fingerprint = 707E C01E AC3C 2F7F 8723  30CB 4EDB 0BF7 959C DDD1
+uid                  Noodle_ronin (<<Hack|Slash linux) <agung.ichiruki@gmail.com>
+sub   1024R/B93D20D1 2017-07-27
+
+gpg --list-key
+/home/agung/.gnupg/pubring.gpg
+-------------------------------
+pub   1024R/959CDDD1 2017-07-27
+uid                  Noodle_ronin (<<Hack|Slash linux) <agung.ichiruki@gmail.com>
+sub   1024R/B93D20D1 2017-07-27
+
+gpg --keyserver keyserver.ubuntu.com --send-keys 959CDDD1
+gpg: sending key 959CDDD1 to hkp server keyserver.ubuntu.com

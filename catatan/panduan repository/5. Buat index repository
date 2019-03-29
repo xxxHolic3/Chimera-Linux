@@ -1,0 +1,6 @@
+# Membuat Index Repository
+cd $HOME/upload
+reprepro -b $HOME/repo/ includedeb inu *.deb
+
+# Ganti inu sesuai dengan kode nama dari repository yang dibangun
+# Index Repository siap upload ke sourceforge atau hostingan lain

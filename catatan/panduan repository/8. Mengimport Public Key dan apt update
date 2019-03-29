@@ -1,0 +1,9 @@
+
+# Menambahkan Public Key
+cd $HOME/Downloads
+wget http://downloads.sourceforge.net/slashproject/hackslash/repo/public-key.gpg
+                             # Silahkan Ganti hackslash sesuai nama project yang dikerjakan di sourceforge
+gpg --import public-key.gpg
+
+# Update Repository
+sudo apt-get update

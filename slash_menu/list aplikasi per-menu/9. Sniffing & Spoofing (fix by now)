@@ -1,0 +1,51 @@
+[+] Network Sniffers
+  darkstat
+  dsniff
+  hexinject
+  mailsnarf
+  msgsnarf
+  netsniff-ng
+  nfspy
+  sslsniff
+  tcpflow
+  urlsnarf
+  webmitm
+  webspy
+  
+[+] Spoofing and MITM
+  dnschef
+  dnsspoof
+  evilgrade
+  fake_advertise6
+  fake_dhcps6
+  fake_dns6d
+  fake_dnsupdate6
+  fake_mipv6
+  fake_mld26
+  fake_mld6
+  fake_mldrouter6
+  fake_router26
+  fake_router6
+  fake_solicitate6
+  fiked 
+  parasite6
+  randicmp6
+  rebind
+  redir6
+  sniffjoke
+  sslsplit
+  sslstrip
+  tcpreplay
+  wifi-honey
+  yersinia
+  
+bdfproxy
+bettercap
+etherape
+ettercap-gui
+hamster
+kayak - car hacking tool
+macchanger
+mitmproxy
+responder
+wireshark

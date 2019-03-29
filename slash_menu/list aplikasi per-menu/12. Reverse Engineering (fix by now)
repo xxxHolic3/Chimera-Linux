@@ -1,0 +1,20 @@
+apktool
+clang [llvm-default Family]
+clang++ [llvm-default Family]
+dex2jar 
+edb-debugger
+flasm
+jad
+javasnoop
+Kayak - Car hacking tools
+NASM shell
+rabin2 [radare2 Family]
+radare2 
+radiff2 [radare2 Family]
+rafind2 [radare2 Family]
+ragg2 [radare2 Family]
+ragg2-cc [radare2 Family]
+rarun2 [radare2 Family]
+rasm2 [radare2 Family]
+rax2 [radare2 Family]
+smali

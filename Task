@@ -1,0 +1,13 @@
+# Task
+
+[*] Persiapan Debootstrap                                    #Proggress 100%
+[*] Buat daftar menu                                         #Proggress 100%
+[*] Buat daftar aplikasi yang akan di include                #Proggress 15%
+[*] Buat paket .deb dari daftar aplikasi                     #Proggress 5%
+[*] Buat repository (persiapan rilis masa depan)             #Proggress 5%
+[*] Desain Art (wallpaper, icon, theme, splashscreen,)       #Proggress 0%
+[*] Mulai proses Debootstrap                                 #Proggress 0%
+[*] Penyesuaian pada hasil Debootstrap                       #Proggress 0%
+[*] Membuat file ISO                                         #Proggress 0%
+[*] Uji coba                                                 #Proggress 0%
+[*] Upload ke publik                                         #Proggress 0%

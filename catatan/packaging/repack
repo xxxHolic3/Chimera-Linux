@@ -1,0 +1,14 @@
+# Buat direktori kerja
+mkdir -p newpack oldpack/DEBIAN
+
+# Ekstrack paket .deb
+dpkg-deb -x file.deb oldpack/
+
+# Ekstrack control paker .deb
+dpkg-deb -e file.deb oldpack/DEBIAN
+
+# Ubah informasi paket pada file control
+gedit /oldpack/DEBIAN/control
+
+# Paketkan kembali menjadi paket .deb
+dpkg-deb -Z xz -b oldpack/ newpack/

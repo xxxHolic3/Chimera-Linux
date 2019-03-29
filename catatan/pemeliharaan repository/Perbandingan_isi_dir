@@ -1,0 +1,7 @@
+# 2 opsi dalam membandingkan isi dari kedua folder
+
+# opsi pertama menggunakan tools  GUI meld
+
+# opsi kedua menggunakan tools CLI diff
+
+diff -q direktori_lama/ direktori_baru/
